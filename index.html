@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态图片站</title>
+    <script src="static/js/site.js"></script>
+    <link rel="stylesheet" href="static/css/site.css">
+    <script src="static/js/fish.js"></script>
+    <script src="static/js/jquery.min.js"></script>
+</head>
+<body onload="load()">
+<!-- 头部 -->
+<div id="head">
+    <a href="index.html">
+        <img src="static/img/image.png" alt="图片加载失败">
+    </a>
+    <div id="nav">
+        <a href="https://www.baidu.com">百度</a>
+        <a href="https://www.sogou.com">搜狗</a>
+    </div>
+</div>
+
+<!-- 内容 -->
+<div id="main">
+    <div id="content"></div>
+    <button id="load" onclick="load()" style="margin: 8px 1px 5px;">加载更多...</button>
+</div>
+
+<!-- 页脚 -->
+<div id="foot">
+    <!-- 备案信息 -->
+    <div id="beian">
+        <div class="beian_icp">
+            <img src="https://image.wlplove.com/static/img/icon/footer/beian_icp_favicon.png" width=20px height=auto>
+            <a href="http://beian.miit.gov.cn/" target="_blank">
+                &nbsp;备案号&nbsp;&nbsp;&nbsp;
+            </a>
+        </div>
+        <div class="beian_police">
+            <img src="https://image.wlplove.com/static/img/icon/footer/beian_police.png" width="20px" height=auto>
+            <a href="" target="_blank">
+                &nbsp;公网安备案号&nbsp;&nbsp;&nbsp;
+            </a>
+        </div>
+    </div>
+</div>
+<script src="static/js/fish.min.js"></script>
+<div id="j-fish-skip"></div>
+
+</body>
+</html>
