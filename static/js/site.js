@@ -16,7 +16,7 @@ function random() {
 // 拼接图片地址
 function createLink() {
 	// link 为图片链接前缀，修改此变量即可完成图片链接的修改
-    let link = "https://cdn.jsdelivr.net/gh/wlplove/";
+    let link = "";
     // 视实际情况修改图片格式
     return link + random() + ".jpg";
 }
