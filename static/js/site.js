@@ -16,7 +16,7 @@ function random() {
 // 拼接图片地址
 function createLink() {
 	// link 为图片链接前缀，修改此变量即可完成图片链接的修改
-    let link = "";
+    let link = "https://iph.href.lu/200x300?text=";
     // 视实际情况修改图片格式
     return link + random() + ".jpg";
 }
@@ -45,6 +45,8 @@ function addImages() {
         // 设置 img 标签的部分属性
         imgObj.setAttribute("alt", "图片加载失败");
         imgObj.setAttribute("src", imgLink);
+        //imgObj.setAttribute("width", '200');
+        //imgObj.setAttribute("height", '300');
         let img = new Image();
         img.src = imgLink;
         img.onload = function () {
